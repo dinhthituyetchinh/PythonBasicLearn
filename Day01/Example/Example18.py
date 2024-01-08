@@ -71,3 +71,14 @@ my_char_array = array('c', ['g','e','e','k'])
 # array('c', 'geek')
 print(my_char_array.tostring())
 
+#Chuyển mảng  thành list
+from array import *
+a = array('i', [1, 2, 3, 4, 5])
+c = a.tolist()
+print(a)
+print(c)
+# Thêm chuỗi vào mảng kí tự
+from array import *
+my_char_array = array('c', ['g','e','e','k'])
+my_char_array.fromstring("stuff")
+print(my_char_array)
